@@ -13,9 +13,27 @@ const Navbar = () => {
         </div>
 
         <div className="flex gap-2 items-center justify-center text-2xl m-8 text-white">
-          <FaLinkedin />
-          <FaGithub />
-          <FaXTwitter />
+          <a
+            href="https://www.linkedin.com/in/vanshika-rajput-aaa920227/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://github.com/vanshikaRaj11"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://x.com/Vanshika_raj11"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaXTwitter />
+          </a>
         </div>
       </nav>
     </>
