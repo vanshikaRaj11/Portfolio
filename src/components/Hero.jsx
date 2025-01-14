@@ -1,5 +1,5 @@
 import React from "react";
-import sidepic from "../assets/sidepic.jpeg";
+import profilePic from "../assets/profile1.png";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
@@ -104,7 +104,7 @@ const Hero = () => {
         </motion.div>
 
         <motion.img
-          src={sidepic}
+          src={profilePic}
           className="w-[300px] md:w-[450px]"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}

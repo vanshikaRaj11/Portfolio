@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiOutlineLinkedin } from 'react-icons/ai';
-import { FaGithubSquare, FaInstagram } from 'react-icons/fa'
+import { FaGithubSquare} from 'react-icons/fa'
 import { FaSquareXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
