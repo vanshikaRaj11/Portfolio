@@ -122,7 +122,7 @@ const Hero = () => {
         <p className="text-gray-200 text-4xl md:text-5xl font-semibold mb-8">
           My Tech Stack
         </p>
-        <div className="grid grid-cols-3 md:grid-cols-5 gap-8">
+        <div className="grid grid-cols-3 md:grid-cols-5 gap-4 justify-items-center w-full border-purple-400">
           {[
             {
               icon: <RiTailwindCssFill className="text-blue-600 text-4xl" />,
@@ -177,8 +177,8 @@ const Hero = () => {
           ].map((item) => (
             <motion.div
               key={item.id}
-              whileHover={{ scale: 1.2 }}
-              className="group relative flex items-center justify-center w-20 h-20 rounded-md shadow-md bg-gray-800 transition-all duration-300 hover:border-purple-500 hover:border-2"
+              whileHover={{ scale: 1.1 }} // Slight scale-up effect on hover
+              className="group relative flex items-center justify-center w-24 h-24 md:w-40 md:h-28 rounded-md shadow-md border-2 border-transparent group-hover:border-purple-400 transition-all duration-300"
             >
               {/* Icon */}
               <div className="group-hover:bg-gray-700 w-full h-full flex items-center justify-center rounded-md">
