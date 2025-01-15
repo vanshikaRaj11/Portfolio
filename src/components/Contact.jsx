@@ -15,7 +15,7 @@ const Contact = () => {
               <h3 className="text-4xl font-semibold mb-5">
                 About <span>Me</span>
               </h3>
-              <p className="text-justify leading-7 w-full mx-auto">
+              <p className="text-justify leading-7 text-base md:text-lg w-full mx-auto">
                 As a Backend Developer with a strong focus on the MERN stack
                 (MongoDB, Express.js, Node.js), I specialize in building and
                 deploying scalable web applications. I have extensive hands-on
@@ -94,19 +94,19 @@ const Contact = () => {
             </button>
           </form> */}
       </Reveal>
-      <div className="flex flex-col">
+      <div className="flex flex-col mt-10">
         <h3 className="text-2xl font-semibold m-4 mx-auto text-gray-300">
           My Daily Contributions
         </h3>
 
-        <div className="w-full">
+        <div className="w-full overflow-x-auto text-white">
           {" "}
           <GitHubCalendar
             username="vanshikaRaj11"
-            blockSize={15}
+            blockSize={window.innerWidth < 640 ? 10 : 15}
             blockMargin={5}
             color="#c084f5"
-            fontSize={16}
+            fontSize={window.innerWidth < 640 ? 12 : 16}
           />
         </div>
       </div>
