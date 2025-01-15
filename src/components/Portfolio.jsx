@@ -10,7 +10,7 @@ const projects = [
   {
     img: AstroGanesh,
     title: "AstroGanesh",
-    description: `Developed and maintained RESTful APIs for an astrology platform using Node.js and Express.js, implementing CRUD operations to ensure smooth data management and platform functionality.`,
+    description: `Built RESTful APIs for an astrology platform using Node.js and Express.js, ensuring smooth data management.`,
     links: {
       site: "https://astroganesh.in/",
       github: "https://astroganesh.in/",
@@ -19,7 +19,7 @@ const projects = [
   {
     img: ToursPlan,
     title: "ToursPlan",
-    description: `Created a dynamic travel platform with React.js, showcasing travel destinations with descriptions, itineraries, pricing, and an interactive booking system.`,
+    description: `Created a travel platform with React.js, featuring destinations, itineraries, pricing, etc.`,
     links: {
       site: "https://toursplans.netlify.app/",
       github: "https://github.com/vanshikaRaj11/ToursPlan",
@@ -28,7 +28,7 @@ const projects = [
   {
     img: AVD,
     title: "AVD Staffing",
-    description: `Developed a recruitment platform for AVD Staffing, offering tailored HR solutions for mid-level management across industries, enhancing the hiring process.`,
+    description: `Developed APIs for recruitment platform, enhancing hiring with tailored HR solutions.`,
     links: {
       site: "https://www.avdstaffing.com/",
       github: "https://www.avdstaffing.com/",
@@ -37,15 +37,13 @@ const projects = [
   {
     img: ChatApp,
     title: "MERN Chat App",
-    description: `Built a real-time messaging app using MERN stack and Socket.IO, enabling instant messaging, notifications, and group chats for users.`,
+    description: `Built a real-time chat app with MERN stack and Socket.IO, supporting messaging, notifications, and groups.`,
     links: {
       site: "https://mern-chat-app-ww9s.onrender.com/",
       github: "https://github.com/vanshikaRaj11/Mern-chat-App",
     },
   },
 ];
-
-
 
 const Portfolio = () => {
   return (

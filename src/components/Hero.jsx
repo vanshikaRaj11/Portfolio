@@ -18,7 +18,7 @@ import { VscVscode } from "react-icons/vsc";
 const Hero = () => {
   return (
     <div className="mt-24 max-w-[1200px] mx-auto relative">
-      <div className="grid md:grid-cols-2 place-items-center gap-8">
+      <div className="grid md:grid-cols-2 place-items-center gap-8 p-5">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -178,7 +178,7 @@ const Hero = () => {
             <motion.div
               key={item.id}
               whileHover={{ scale: 1.1 }} // Slight scale-up effect on hover
-              className="group relative flex items-center justify-center w-24 h-24 md:w-40 md:h-28 rounded-md shadow-md border-2 border-transparent group-hover:border-purple-400 transition-all duration-300"
+              className="group relative flex items-center justify-center w-24 h-24 md:w-40 md:h-28 rounded-md shadow-md border-2 bg-purple-700/10 border-transparent group-hover:border-purple-400 transition-all duration-300"
             >
               {/* Icon */}
               <div className="group-hover:bg-gray-700 w-full h-full flex items-center justify-center rounded-md">

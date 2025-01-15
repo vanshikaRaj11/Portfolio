@@ -8,8 +8,10 @@ import {
 } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import Portfolio from "./Portfolio"
 
 import Reveal from "./Reveal";
+import { Link } from "react-scroll";
 
 const skills = [
   {
@@ -49,9 +51,15 @@ const Skills = () => {
         <p className="text-center mb-8">
           I have experience working on various frontend and backend projects,
           delivering dynamic and scalable solutions. Explore my{" "}
-          <a href="#" className="underline">
+          <Link
+            to="portfolio"
+            smooth={true}
+            offset={-50}
+            duration={500}
+            className="hover:underline cursor-pointer font-bold text-white"
+          >
             portfolio
-          </a>{" "}
+          </Link>{" "}
           to see highlights of my work.
         </p>
 
