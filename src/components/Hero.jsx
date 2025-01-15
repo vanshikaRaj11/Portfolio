@@ -48,16 +48,12 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 1 }}
-            className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
+            className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6 p-2"
           >
             I am a passionate backend developer with expertise in Node.js,
             Express.js, and MongoDB. I specialize in crafting robust, scalable
             server-side applications, designing RESTful APIs, and optimizing
             database management.
-            {/* 
-             My goal is to deliver secure, reliable, and
-            high-performance solutions tailored to the needs of modern web and
-            mobile platforms.{" "} */}
           </motion.p>
 
           <motion.div
@@ -67,16 +63,19 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1.5 }}
             className="flex flex-row items-center gap-6 my-4 md:mb-0"
           >
-            <motion.button
-              whileHover={{
-                scale: 1.05,
-                boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)",
-              }}
-              className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
-                                     border-purple-400 rounded-xl"
+            <motion.a
+              href="https://drive.google.com/file/d/1qz19xkCwXiWKqZB5d9F35gOQi_ZJIe5o/view?usp=sharing"
+              target="_blank" 
+              rel="noopener noreferrer"
             >
-              Download CV
-            </motion.button>
+              <motion.button
+  
+                className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
+                                     border-purple-400 rounded-xl"
+              >
+                View Resume
+              </motion.button>
+            </motion.a>
 
             <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
               <motion.a
@@ -104,7 +103,7 @@ const Hero = () => {
         </motion.div>
 
         <motion.img
-          src={profilePic}
+          src="https://res.cloudinary.com/vanshikaraj/image/upload/v1736953933/profile1_uk7ymp.png"
           className="w-[300px] md:w-[450px]"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}

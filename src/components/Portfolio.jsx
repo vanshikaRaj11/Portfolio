@@ -3,6 +3,7 @@ import AstroGanesh from "../assets/AstroGanesh.png";
 import AVD from "../assets/AVD.png";
 import ToursPlan from "../assets/ToursPlan.png";
 import ChatApp from "../assets/ChatApp.png";
+import YouTube from "../assets/YouTube.png";
 import { AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
 
@@ -43,6 +44,15 @@ const projects = [
       github: "https://github.com/vanshikaRaj11/Mern-chat-App",
     },
   },
+  {
+    img: YouTube,
+    title: "YouTube Backend",
+    description: `Developed a YouTube-like backend using Node.js, Express, and MongoDB, supporting video uploads and management.`,
+    links: {
+      site: "https://github.com/vanshikaRaj11/Youtube",
+      github: "https://github.com/vanshikaRaj11/Youtube",
+    },
+  },
 ];
 
 const Portfolio = () => {
@@ -50,9 +60,8 @@ const Portfolio = () => {
     <div className="max-w-[1000px] mx-auto p-6 md:my-20" id="portfolio">
       <h2 className="text-3xl font-bold text-gray-200 mb-8">Portfolio</h2>
       {projects.map((project, index) => (
-        <Reveal>
+        <Reveal key={index}>
           <div
-            key={index}
             className={`flex flex-col md:flex-row ${
               index % 2 !== 0 ? "md:flex-row-reverse" : ""
             } mb-12`}
@@ -77,17 +86,17 @@ const Portfolio = () => {
                 >
                   View Site
                 </a>
-                {index % 2 !== 0 ? (
+                {index === 0 || index === 2 ? (
+                  <span className="px-4 py-2 bg-slate-600 text-gray-400 rounded-lg cursor-not-allowed">
+                    <AiOutlineGithub />
+                  </span>
+                ) : (
                   <a
                     href={project.links.github}
                     className="px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700 transition duration-300"
                   >
                     <AiOutlineGithub />
                   </a>
-                ) : (
-                  <span className="px-4 py-2 bg-slate-600 text-gray-400 rounded-lg cursor-not-allowed">
-                    <AiOutlineGithub />
-                  </span>
                 )}
               </div>
             </div>

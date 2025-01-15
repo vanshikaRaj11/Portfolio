@@ -33,7 +33,7 @@ const Contact = () => {
           <div>
             {" "}
             <div className="flex mt-10 items-center gap-7">
-              <div className="bg-gray-800/40 p-4 rounded-lg">
+              <div className="bg-gray-800/40 p-5 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
                   10
                   <span>+</span>
@@ -55,51 +55,13 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* <form
-            action="https://getform.io/f/placeYourEndpointHere"
-            method="POST"
-            className=" max-w-6xl p-5 md:p-12"
-            id="form"
-          >
-            <p className="text-gray-100 font-bold text-xl mb-2">
-              Let´s connect!
-            </p>
-            <input
-              type="text"
-              id="name"
-              placeholder="Your Name ..."
-              name="name"
-              className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
-            />
-            <input
-              type="email"
-              id="email"
-              placeholder="Your Email ..."
-              name="email"
-              className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
-            />
-            <textarea
-              name="textarea"
-              id="textarea"
-              cols="30"
-              rows="4"
-              placeholder="Your Message ..."
-              className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
-            />
-            <button
-              type="submit"
-              className="w-full py-3 rounded-md text-gray-100 font-semibold text-xl bg-primary-color"
-            >
-              Send Message
-            </button>
-          </form> */}
       </Reveal>
-      <div className="flex flex-col mt-10">
+      <div className="flex flex-col m-5 md:m-10">
         <h3 className="text-2xl font-semibold m-4 mx-auto text-gray-300">
           My Daily Contributions
         </h3>
 
-        <div className="w-full overflow-x-auto text-white">
+        <div className="w-full justify-center overflow-x-auto mx-auto  text-white">
           {" "}
           <GitHubCalendar
             username="vanshikaRaj11"
