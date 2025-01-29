@@ -32,7 +32,7 @@ const Experience = () => {
       >
         {experiences.map((experience, index) => (
           <motion.div
-            key={index} // Ensure each item has a unique key
+            key={index} 
             initial="hidden"
             whileInView="visible"
             viewport={{ once: false, amount: 0.3 }}
