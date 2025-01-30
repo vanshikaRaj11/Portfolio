@@ -9,11 +9,11 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-8 place-items-center">
           {/* About section */}
           <div>
-            <div className="text-gray-300 my-3">
+            <div className="text-gray-300 my-3 px-3">
               <h3 className="text-4xl font-semibold mb-5">
                 About <span>Me</span>
               </h3>
-              <p className="text-justify leading-7 text-base md:text-lg w-full mx-auto">
+              <p className="text-justify leading-7 text-base  md:text-lg w-full mx-auto">
                 As a Backend Developer with a strong focus on the MERN stack
                 (MongoDB, Express.js, Node.js), I specialize in building and
                 deploying scalable web applications. I have extensive hands-on

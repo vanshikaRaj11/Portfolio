@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
-import V from "../assets/V.png"
 import { Link } from 'react-scroll'
 import { motion } from 'framer-motion'
 import { TbSquareLetterV } from 'react-icons/tb'
