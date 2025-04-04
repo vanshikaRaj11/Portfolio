@@ -64,12 +64,11 @@ const Hero = () => {
             className="flex flex-row items-center gap-6 my-4 md:mb-0"
           >
             <motion.a
-              href="https://drive.google.com/file/d/1qz19xkCwXiWKqZB5d9F35gOQi_ZJIe5o/view?usp=sharing"
-              target="_blank" 
+              href="https://drive.google.com/file/d/1JUhfVoDRUpFLWrxEp1DxsW9CvqDRKRyW/view?usp=sharing"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <motion.button
-  
                 className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-purple-400 rounded-xl"
               >
