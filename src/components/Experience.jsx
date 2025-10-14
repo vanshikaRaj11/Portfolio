@@ -6,7 +6,7 @@ const experiences = [
     company: "RNF Technologies",
     period: "2025 - Present",
     position: "Backend Developer",
-    description: `Developed backend systems using Node.js and Express.js, delivering scalable solutions through RESTful APIs.Collaborated with frontend teams to integrate APIs seamlessly, enhancing overall application functionality. Integrated third-party APIs and services to extend features and improve user experience`,
+    description: `Developed backend systems using Node.js and Express.js, delivering scalable solutions through RESTful APIs.Collaborated with frontend teams to integrate APIs seamlessly, enhancing overall application functionality. Integrated third-party APIs and services to extend features and improve user experience.`,
   },
   {
     company: "Devlupers",

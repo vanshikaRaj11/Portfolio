@@ -23,7 +23,7 @@ const Contact = () => {
                 am committed to delivering high-quality results and continuously
                 enhancing my skills. I thrive in dynamic environments, tackling
                 complex backend challenges, and ensuring optimal performance
-                across applications
+                across applications.
               </p>
             </div>
           </div>
