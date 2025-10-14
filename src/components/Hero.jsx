@@ -50,10 +50,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6 p-2"
           >
-            I am a passionate backend developer with expertise in Node.js,
-            Express.js, and MongoDB. I specialize in crafting robust, scalable
-            server-side applications, designing RESTful APIs, and optimizing
-            database management.
+        I am a Backend Developer with <span className="text-purple-500">1+ years of Experience</span> in building scalable, secure, and efficient <span className="text-purple-500">RESTful APIs</span> using Node.js and Express.js. Skilled in backend architecture, <span      className="text-purple-500">Third Party Integrations</span>, and database management with   MongoDB. I am committed to delivering reliable solutions while continuously exploring new web technologies to enhance performance.
           </motion.p>
 
           <motion.div

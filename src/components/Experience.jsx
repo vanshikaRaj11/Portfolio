@@ -2,20 +2,19 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const experiences = [
+    {
+    company: "RNF Technologies",
+    period: "2025 - Present",
+    position: "Backend Developer",
+    description: `Developed backend systems using Node.js and Express.js, delivering scalable solutions through RESTful APIs.Collaborated with frontend teams to integrate APIs seamlessly, enhancing overall application functionality. Integrated third-party APIs and services to extend features and improve user experience`,
+  },
   {
     company: "Devlupers",
-    period: "2024 - Present",
+    period: "2024 - 2025",
     position: "Backend Developer",
     description: `Built backend systems with Node.js and Express.js, providing scalable solutions to web applications through Restful APIs.
  Collaborated with frontend teams to integrate APIs flawlessly and enhance application functionality.
  Worked with third party APIs and services to expand application features and improve user experience.`,
-  },
-  {
-    company: "Code Clause",
-    period: "2023 - 2024",
-    position: "Web Development Intern",
-    description: `A month internship, contributing to multiple projects and gaining hands-on experience in web development technologies.
- Gained practical knowledge in web development workflows, debugging, version control using git.`,
   },
 ];
 
