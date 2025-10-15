@@ -13,8 +13,7 @@ const experiences = [
     period: "2024 - 2025",
     position: "Backend Developer",
     description: `Built backend systems with Node.js and Express.js, providing scalable solutions to web applications through Restful APIs.
- Collaborated with frontend teams to integrate APIs flawlessly and enhance application functionality.
- Worked with third party APIs and services to expand application features and improve user experience.`,
+    Collaborated with frontend teams to integrate APIs flawlessly and enhance application functionality.Worked with third party APIs and services to expand application features and improve user experience.`,
   },
 ];
 

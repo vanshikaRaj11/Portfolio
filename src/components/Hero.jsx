@@ -14,6 +14,7 @@ import { motion } from "framer-motion";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress, SiJira, SiPostman } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
+import resume from "../assets/Vanshika.pdf"
 
 const Hero = () => {
   return (
@@ -61,9 +62,11 @@ const Hero = () => {
             className="flex flex-row items-center gap-6 my-4 md:mb-0"
           >
             <motion.a
-              href="https://drive.google.com/file/d/1JUhfVoDRUpFLWrxEp1DxsW9CvqDRKRyW/view?usp=sharing"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
             >
               <motion.button
                 className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
@@ -189,7 +192,7 @@ const Hero = () => {
         </div>
       </motion.div>
 
-      <div className="absolute inset-0 hidden md:block">
+      <div className="absolute inset-0 hidden md:block pointer-events-none z-0">
         <ShinyEffect left={0} top={0} size={1400} />
       </div>
     </div>
