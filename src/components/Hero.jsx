@@ -9,12 +9,13 @@ import {
   DiMongodb,
   DiNodejsSmall,
   DiReact,
+  DiRedis,
 } from "react-icons/di";
 import { motion } from "framer-motion";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress, SiJira, SiPostman } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
-import resume from "../assets/Vanshika.pdf"
+import resume from "../assets/Vanshika.pdf";
 
 const Hero = () => {
   return (
@@ -27,7 +28,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <TypeAnimation
-            sequence={["MERN Stack Developer", 1000, "Backend Developer", 1000]}
+            sequence={["Full Stack Developer", 1000, "Backend Developer", 1000]}
             speed={50}
             repeat={Infinity}
             className="font-bold text-gray-400 text-xl md:text-5xl italic- mb-4"
@@ -51,7 +52,15 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6 p-2"
           >
-        I am a Backend Developer with <span className="text-purple-500">1+ years of Experience</span> in building scalable, secure, and efficient <span className="text-purple-500">RESTful APIs</span> using Node.js and Express.js. Skilled in backend architecture, <span      className="text-purple-500">Third Party Integrations</span>, and database management with   MongoDB. I am committed to delivering reliable solutions while continuously exploring new web technologies to enhance performance.
+            I am a Full Stack Developer with{" "}
+            <span className="text-purple-500">2 years of Experience</span> in
+            building scalable, secure, and efficient{" "}
+            <span className="text-purple-500">RESTful APIs</span> using Node.js
+            and Express.js. Skilled in backend architecture,{" "}
+            <span className="text-purple-500">Third Party Integrations</span>,
+            and database management with MongoDB. I am committed to delivering
+            reliable solutions while continuously exploring new web technologies
+            to enhance performance.
           </motion.p>
 
           <motion.div
@@ -123,13 +132,13 @@ const Hero = () => {
         <div className="grid grid-cols-3 md:grid-cols-5 gap-4 justify-items-center w-full border-purple-400">
           {[
             {
-              icon: <RiTailwindCssFill className="text-blue-600 text-4xl" />,
-              name: "Tailwind CSS",
+              icon: <DiJavascript1 className="text-yellow-500 text-4xl" />,
+              name: "JavaScript",
               id: 1,
             },
             {
-              icon: <DiJavascript1 className="text-yellow-500 text-4xl" />,
-              name: "JavaScript",
+              icon: <RiTailwindCssFill className="text-blue-600 text-4xl" />,
+              name: "Tailwind CSS",
               id: 2,
             },
             {
@@ -153,24 +162,29 @@ const Hero = () => {
               id: 6,
             },
             {
+              icon: <DiRedis className="text-red-500 text-4xl" />,
+              name: "Redis",
+              id: 7,
+            },
+            {
               icon: <SiPostman className="text-orange-700 text-4xl" />,
               name: "Postman",
-              id: 7,
+              id: 8,
             },
             {
               icon: <SiJira className="text-blue-500 text-4xl" />,
               name: "Jira",
-              id: 8,
+              id: 9,
             },
             {
               icon: <FaGitAlt className="text-orange-700 text-4xl" />,
               name: "Git",
-              id: 9,
+              id: 10,
             },
             {
               icon: <VscVscode className="text-blue-500 text-4xl" />,
               name: "VS Code",
-              id: 10,
+              id: 11,
             },
           ].map((item) => (
             <motion.div

@@ -8,6 +8,8 @@ import {
 } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { DiRedis } from "react-icons/di";
+
 import Portfolio from "./Portfolio"
 
 import Reveal from "./Reveal";
@@ -34,6 +36,7 @@ const skills = [
       { name: "Node Js", icon: <DiNodejsSmall className="text-green-500" /> },
       { name: "Express", icon: <SiExpress className="text-green-500" /> },
       { name: "MongoDB", icon: <DiMongodb className="text-green-600" /> },
+      { name: "Redis", icon: <DiRedis className="text-red-500" /> },
       { name: "React", icon: <DiReact className="text-blue-500" /> },
       { name: "GitHub", icon: <DiGithubBadge className="text-gray-600" /> },
     ],
