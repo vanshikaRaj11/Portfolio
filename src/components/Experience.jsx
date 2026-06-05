@@ -1,19 +1,24 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 const experiences = [
-    {
+  {
     company: "RNF Technologies",
     period: "2025 - Present",
     position: "Backend Developer",
-    description: `Developed backend systems using Node.js and Express.js, delivering scalable solutions through RESTful APIs.Collaborated with frontend teams to integrate APIs seamlessly, enhancing overall application functionality. Integrated third-party APIs and services to extend features and improve user experience.`,
+    description: `Developed scalable backend systems and RESTful APIs using Nodejs, Express,js and MongoDB for CRM and digital marketing platform. 
+    Built and managed APIs attendees, speakers, sessions, registrations, questionnaires, and conference verticals for The2Conf. 
+    Integrated Google Analytics and SEOptimer to enable SEO analysis, traffic tracking, and performance reporting. 
+    Managed and integrated MongoDB databases for consistent data with high performance. `,
   },
   {
     company: "Devlupers",
     period: "2024 - 2025",
     position: "Backend Developer",
-    description: `Built backend systems with Node.js and Express.js, providing scalable solutions to web applications through Restful APIs.
-    Collaborated with frontend teams to integrate APIs flawlessly and enhance application functionality.Worked with third party APIs and services to expand application features and improve user experience.`,
+    description: `
+     Developed and maintained 200+ RESTful APIs using Node.js and Express.js to support scalable web applications. 
+     Refactored and optimized 100+ existing APIs to improve performance, security, and maintainability. 
+     Integrated OTP-based user verification through third-party SMS Gateway APIs for secure login and signup process. 
+     Implemented real-time balance deduction functionality, enabling dynamic wallet updates. `,
   },
 ];
 
@@ -30,7 +35,7 @@ const Experience = () => {
       >
         {experiences.map((experience, index) => (
           <motion.div
-            key={index} 
+            key={index}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: false, amount: 0.3 }}

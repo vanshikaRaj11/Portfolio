@@ -1,19 +1,16 @@
-import React from "react";
 import {
   DiJavascript1,
   DiReact,
   DiNodejsSmall,
   DiMongodb,
-  DiGithubBadge,
 } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { DiRedis } from "react-icons/di";
-
-import Portfolio from "./Portfolio"
 
 import Reveal from "./Reveal";
 import { Link } from "react-scroll";
+import { FaGitAlt } from "react-icons/fa";
 
 const skills = [
   {
@@ -28,6 +25,7 @@ const skills = [
         icon: <DiJavascript1 className="text-yellow-500" />,
       },
       { name: "React", icon: <DiReact className="text-blue-500" /> },
+      { name: "Next.js", icon: <RiNextjsFill className="text-gray-500" /> },
     ],
   },
   {
@@ -38,7 +36,9 @@ const skills = [
       { name: "MongoDB", icon: <DiMongodb className="text-green-600" /> },
       { name: "Redis", icon: <DiRedis className="text-red-500" /> },
       { name: "React", icon: <DiReact className="text-blue-500" /> },
-      { name: "GitHub", icon: <DiGithubBadge className="text-gray-600" /> },
+      { name: "Next.js", icon: <RiNextjsFill className="text-gray-500" /> },
+      { name: "Git", icon: <FaGitAlt
+ className="text-orange-700" /> },
     ],
   },
 ];
@@ -46,7 +46,7 @@ const skills = [
 const Skills = () => {
   return (
     <div
-      className="max-w-[650px] mx-auto flex flex-col justify-center px-4 text-gray-200 pb-8 md:py-12"
+      className="max-w-[1200px] mx-auto flex flex-col justify-center px-4 text-gray-200 pb-8 md:py-12"
       id="skills"
     >
       <Reveal>

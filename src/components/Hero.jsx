@@ -1,5 +1,3 @@
-import React from "react";
-import profilePic from "../assets/profile1.png";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
@@ -52,15 +50,19 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6 p-2"
           >
-            I am a Full Stack Developer with{" "}
-            <span className="text-purple-500">2 years of Experience</span> in
-            building scalable, secure, and efficient{" "}
-            <span className="text-purple-500">RESTful APIs</span> using Node.js
-            and Express.js. Skilled in backend architecture,{" "}
-            <span className="text-purple-500">Third Party Integrations</span>,
-            and database management with MongoDB. I am committed to delivering
-            reliable solutions while continuously exploring new web technologies
-            to enhance performance.
+            I am a <span className="text-purple-500">Full Stack Developer</span>{" "}
+            with <span className="text-purple-500">2 years of experience</span>{" "}
+            building scalable, secure, and high-performance web applications
+            using{" "}
+            <span className="text-purple-500">
+              React.js, Next.js, Node.js, Express.js, and MongoDB
+            </span>
+            . Skilled in developing responsive user interfaces,{" "}
+            <span className="text-purple-500">RESTful APIs</span>, backend
+            architecture, database management, and{" "}
+            <span className="text-purple-500">third-party integrations</span>.
+            Passionate about creating efficient end-to-end solutions, optimizing
+            performance, and delivering exceptional user experiences.
           </motion.p>
 
           <motion.div

@@ -1,4 +1,3 @@
-import React from "react"
 import Reveal from "./Reveal"
 import GitHubCalendar from "react-github-calendar";
 
@@ -14,16 +13,18 @@ const Contact = () => {
                 About <span>Me</span>
               </h3>
               <p className="text-justify leading-7 text-base  md:text-lg w-full mx-auto">
-                As a Backend Developer with a strong focus on the MERN stack
-                (MongoDB, Express.js, Node.js), I specialize in building and
-                deploying scalable web applications. I have extensive hands-on
-                experience with backend technologies, ensuring efficient API
-                development, data management, and server-side logic. Passionate
-                about leveraging new tools to create robust backend solutions, I
-                am committed to delivering high-quality results and continuously
-                enhancing my skills. I thrive in dynamic environments, tackling
-                complex backend challenges, and ensuring optimal performance
-                across applications.
+                As a Full Stack Developer with strong expertise in the MERN
+                stack (MongoDB, Express.js, React.js, and Node.js), I specialize
+                in designing, developing, and deploying scalable web
+                applications. I have hands-on experience across both frontend
+                and backend development, building responsive user interfaces,
+                developing RESTful APIs, managing databases, and implementing
+                secure, high-performance application architectures. Passionate
+                about leveraging modern technologies to create end-to-end
+                solutions, I am committed to delivering high-quality products
+                and continuously expanding my technical expertise. I thrive in
+                dynamic environments, solving complex challenges, optimizing
+                application performance, and creating seamless user experiences.
               </p>
             </div>
           </div>
@@ -43,7 +44,7 @@ const Contact = () => {
 
               <div className="bg-gray-800/40 p-5 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  1<span>+</span>
+                  2<span>+</span>
                 </h3>
                 <p className="text-xs md:text-base">
                   <span>years of experience</span>
@@ -52,7 +53,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-
       </Reveal>
       <div className="flex flex-col m-5 md:m-10">
         <h3 className="text-2xl font-semibold m-4 mx-auto text-gray-300">
